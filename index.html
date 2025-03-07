@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Квест для тебя</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Экран приветствия -->
+  <div id="welcome-screen" class="welcome-screen">
+    <h1>Привет, любимая! 💖</h1>
+    <p>Сегодня тебя ждет небольшое приключение. Готовься к загадкам и сюрпризам!</p>
+    <button id="start-button">Начать квест</button>
+  </div>
+
+  <!-- Основной контейнер квеста (скрыт до начала) -->
+  <div id="quest-container" class="container" style="display: none;">
+    <h1>Квест для тебя 💖</h1>
+    <div id="quest-content">
+      <p id="message"></p>
+      <input type="text" id="answer" placeholder="Введи ответ...">
+      <button id="submit">Ответить</button>
+    </div>
+  </div>
+
+  <!-- Лепестки -->
+  <div class="petals">
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+  </div>
+
+  <!-- Декоративные элементы по бокам -->
+<div class="decor-left"></div>
+<div class="decor-right"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
